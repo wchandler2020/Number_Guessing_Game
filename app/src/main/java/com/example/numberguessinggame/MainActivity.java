@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 if(!radio2.isChecked() && !radio3.isChecked() && !radio4.isChecked())
                 {
                     Snackbar.make(v, "Please select a number of digits", Snackbar.LENGTH_LONG).show();
+
                 }
                 else
                 {
